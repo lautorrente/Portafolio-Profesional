@@ -1,0 +1,38 @@
+/* VALORES PREDETERMINADOS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+/* -------------- NAV ------------- */
+nav {
+    background-color: #6A23FA;
+    
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+nav ul li {
+    padding: 10px;
+}
+nav ul li a {
+    color: #fff;
+}
+nav ul li a:hover {
+    color: black;
+    transition: all 0.5s;
+}
