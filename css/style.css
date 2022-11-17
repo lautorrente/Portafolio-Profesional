@@ -2,7 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
@@ -18,7 +18,7 @@ a {
 }
 /* -------------- NAV ------------- */
 nav {
-    background-color: #6A23FA;
+    background-color: #D61A74;
     
 }
 nav ul {
@@ -31,8 +31,46 @@ nav ul li {
 }
 nav ul li a {
     color: #fff;
+    text-decoration: none;
+    font-weight: 500;
 }
 nav ul li a:hover {
     color: black;
     transition: all 0.5s;
+}
+/* -------------- MAIN INDEX ------------ */
+
+.banner-container  {
+    width: 100%;
+    height: 600px;
+    background-image: url("../imgs/banner.jpeg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-title {
+    color: #4A2AFA;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    margin-top: -50px;
+}
+.banner-subtitle {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 40px;
+}
+.flecha-abajo {
+    position: absolute;
+    bottom: 20px;
+}
+.scroll-down, .flecha-abajo {
+    color: #fff;
 }
